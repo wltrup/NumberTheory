@@ -8,6 +8,7 @@
 ## What
 
 **NumberTheory** is a Swift Package Manager package for iOS/tvOS (10.0 and above), watchOS (4.0 and above), and macOS (10.14 and above), under Swift 5.0 and above,  defining a few simple functions to perform common number-theoretic operations:
+
 ```swift
 /// Greatest common divisor
 public func gcd<T: SignedInteger>(_ a: T, _ b: T) -> T?
@@ -26,10 +27,6 @@ public extension BinaryInteger {
 ## Installation
 
 **NumberTheory** is provided only as a Swift Package Manager package, because I'm moving away from CocoaPods and Carthage, and can be easily installed directly from Xcode.
-
-## Author
-
-Wagner Truppel, trupwl@gmail.com
 
 ## License
 
